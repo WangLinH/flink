@@ -2031,6 +2031,7 @@ public class StreamExecutionEnvironment {
      * @return The execution environment of the context in which the program is executed.
      */
     public static StreamExecutionEnvironment getExecutionEnvironment() {
+        System.out.println("Streaming start by stephen lin...");
         return getExecutionEnvironment(new Configuration());
     }
 
